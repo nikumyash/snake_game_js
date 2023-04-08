@@ -4,23 +4,27 @@ body{
 }
 
 #Container{
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 80vw;
     background-color: black;
     border: 2px blue solid;
     margin : 1vw auto;
 }
 
 .gamePixels{
-    width: 1vw;
-    height:1vw;
+    width: 2vw;
+    height: 2vw;
     border-radius: 10px;
     float:left;
+    outline: 1px solid white;
 }
 
 .snakeBody{
     background-color: rgb(4, 128, 4);
     box-shadow: 0 0 5px #07d50b;
+}
+.food{
+    background-color: red;
 }
 #onScreenController{
     display: none;
