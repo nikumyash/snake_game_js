@@ -1,4 +1,4 @@
-# snake_game_js
+# Classic Snake Gmae
 
 ##The game is still incomplete
 
